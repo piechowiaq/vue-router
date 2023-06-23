@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import CarView from "../views/CarView.vue";
 import ContactView from "../views/ContactView.vue";
+import _404View from "../views/_404View.vue"
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,10 @@ const router = createRouter({
                 }
             ]
         },
+        {
+            path: "/:catchAll(.*)*",
+            component: _404View,
+        }
 
     ]
 
