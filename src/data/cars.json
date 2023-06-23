@@ -3,24 +3,40 @@
     "id": 1,
     "name": "Chevy",
     "price": 15000,
-    "year": 2015
+    "year": 2015,
+    "contact": {
+      "dealer": "Bartosz",
+      "number": "536-565"
+    }
   },
   {
     "id": 2,
     "name": "Audi",
     "price": 17000,
-    "year": 2001
+    "year": 2001,
+    "contact": {
+      "dealer": "Iwona",
+      "number": "222-565"
+    }
   },
   {
     "id": 3,
     "name": "VW",
     "price": 19000,
-    "year": 2005
+    "year": 2005,
+    "contact": {
+      "dealer": "Łucja",
+      "number": "333-565"
+    }
   },
   {
     "id": 4,
     "name": "BMW",
     "price": 20000,
-    "year": 2007
+    "year": 2007,
+    "contact": {
+      "dealer": "Gustaw",
+      "number": "444-565"
+    }
   }
 ]
